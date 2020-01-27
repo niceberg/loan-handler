@@ -1,0 +1,31 @@
+<h3>Add loan</h3>
+<form (ngSubmit)="addLoan()" [formGroup]="addForm">
+  <table class="fullwidth" cellspacing="0">
+    <tr>
+      <td>
+        <mat-form-field>
+          <input formControlName="borrowerName" matInput placeholder="Borrower" required>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field>
+          <input formControlName="fundingAmount" matInput type="number" placeholder="Funding Amount" required>
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <mat-form-field>
+          <input formControlName="repaymentAmount" matInput type="number" placeholder="Repayment Amount" required>
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+
+  <div class="form-actions">
+    <button class="btn-submit" type="submit" mat-raised-button color="primary">Submit</button>
+    <button mat-raised-button type="button" (click)="cancel()">Cancel</button>
+  </div>
+</form>
