@@ -6,7 +6,7 @@ Open the solution in Visual Studio and start IIS Express (F5).
 ## Website
 Make sure you have the [Angular CLI](https://github.com/angular/angular-cli#installation) installed globally.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. For security reasons the API only accepts requests coming from `http://localhost:4200/`.
+Tun `npm install` to install neccessary packages, then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. For security reasons the API only accepts requests coming from `http://localhost:4200/`.
 
 # Structure
 A loan consists of the following properties:
