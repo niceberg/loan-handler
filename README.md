@@ -1,3 +1,14 @@
+# Getting started
+
+## Web API
+Open the solution in Visual Studio and start IIS Express (F5).
+
+## Website
+Make sure you have the [Angular CLI](https://github.com/angular/angular-cli#installation) installed globally.
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. For security reasons the API only accepts requests coming from `http://localhost:4200/`.
+
+# Structure
 A loan consists of the following properties:
 
 - Loan ID
@@ -45,17 +56,3 @@ Optional bonus points:
 - Use one or more design patterns.
 
 - Add tests
-
- 
-
-Submission
-
-- Put the Web API in a folder called "Web API" and the website in a folder called "Website", then put both folders in a zip file.
-
-- Make sure not to send any binaries from the C# project i.e. clean the solution first.
-
-- Include instructions of how to run the website.
-
-- Send the zip file to mark.ufland@youlend.com
-
-- Try and complete it in a week. 
